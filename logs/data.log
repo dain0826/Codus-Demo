@@ -1,0 +1,164 @@
+2022-09-08 09:23:56 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting DemoApplication using Java 1.8.0_191-1-ojdkbuild on DESKTOP-6DTGBPB with PID 10228 (C:\dev\sample01\server\build\classes\java\main started by repure01 in C:\dev\sample01\server)
+2022-09-08 09:23:56 [INFO ] [SpringApplication.java]logStartupProfileInfo(659) : No active profile set, falling back to default profiles: default
+2022-09-08 09:23:57 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2022-09-08 09:23:57 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2022-09-08 09:23:57 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-09-08 09:23:57 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2022-09-08 09:23:57 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(290) : Root WebApplicationContext: initialization completed in 1454 ms
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/css/**'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/js/**'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/img/**'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/lib/*8'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/ui'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-resources'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/security'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='webjars/**'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger/**'] with []
+2022-09-08 09:23:58 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@470d183, org.springframework.security.web.context.SecurityContextPersistenceFilter@69f0b0f4, org.springframework.security.web.header.HeaderWriterFilter@5762658b, org.springframework.security.web.authentication.logout.LogoutFilter@3119cf6f, com.coders.demo.api.framework.security.jwt.JwtAuthenticationFilter@7f9fc8bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f7efd0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41a374be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ea52184, org.springframework.security.web.session.SessionManagementFilter@2b5c4f17, org.springframework.security.web.access.ExceptionTranslationFilter@2513a118, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b0dc227]
+2022-09-08 09:23:58 [INFO ] [PropertySourcedRequestMappingHandlerMapping.java]initHandlerMethods(69) : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-08 09:23:58 [WARN ] [ThymeleafAutoConfiguration.java]checkTemplateLocationExists(105) : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-08 09:23:58 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 09:23:58 [INFO ] [DocumentationPluginsBootstrapper.java]start(160) : Context refreshed
+2022-09-08 09:23:58 [INFO ] [DocumentationPluginsBootstrapper.java]start(163) : Found 1 custom documentation plugin(s)
+2022-09-08 09:23:58 [INFO ] [ApiListingReferenceScanner.java]scan(41) : Scanning for api listing references
+2022-09-08 09:23:58 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started DemoApplication in 2.925 seconds (JVM running for 3.502)
+2022-09-08 09:24:36 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-08 09:24:36 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2022-09-08 09:24:36 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2022-09-08 09:24:36 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2022-09-08 09:24:36 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2022-09-08 09:24:42 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]
+2022-09-08 09:25:58 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]
+2022-09-08 09:29:57 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2022-09-08 09:29:57 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2022-09-08 09:30:01 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting DemoApplication using Java 1.8.0_191-1-ojdkbuild on DESKTOP-6DTGBPB with PID 1532 (C:\dev\sample01\server\build\classes\java\main started by repure01 in C:\dev\sample01\server)
+2022-09-08 09:30:01 [INFO ] [SpringApplication.java]logStartupProfileInfo(659) : No active profile set, falling back to default profiles: default
+2022-09-08 09:30:02 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2022-09-08 09:30:02 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2022-09-08 09:30:02 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-09-08 09:30:03 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2022-09-08 09:30:03 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(290) : Root WebApplicationContext: initialization completed in 1255 ms
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/css/**'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/js/**'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/img/**'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/lib/*8'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/ui'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-resources'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/security'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='webjars/**'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger/**'] with []
+2022-09-08 09:30:03 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55651434, org.springframework.security.web.context.SecurityContextPersistenceFilter@2596d7f4, org.springframework.security.web.header.HeaderWriterFilter@54755dd9, org.springframework.security.web.authentication.logout.LogoutFilter@6a12c7a8, com.coders.demo.api.framework.security.jwt.JwtAuthenticationFilter@3bc4ef12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6aa3bfc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66933239, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50448409, org.springframework.security.web.session.SessionManagementFilter@5762658b, org.springframework.security.web.access.ExceptionTranslationFilter@7da31a40, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a8c93]
+2022-09-08 09:30:03 [INFO ] [PropertySourcedRequestMappingHandlerMapping.java]initHandlerMethods(69) : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-08 09:30:03 [WARN ] [ThymeleafAutoConfiguration.java]checkTemplateLocationExists(105) : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-08 09:30:03 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 09:30:03 [INFO ] [DocumentationPluginsBootstrapper.java]start(160) : Context refreshed
+2022-09-08 09:30:03 [INFO ] [DocumentationPluginsBootstrapper.java]start(163) : Found 1 custom documentation plugin(s)
+2022-09-08 09:30:03 [INFO ] [ApiListingReferenceScanner.java]scan(41) : Scanning for api listing references
+2022-09-08 09:30:03 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started DemoApplication in 2.63 seconds (JVM running for 3.297)
+2022-09-08 09:30:08 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-08 09:30:08 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2022-09-08 09:30:08 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2022-09-08 09:30:08 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]
+2022-09-08 09:32:46 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]
+2022-09-08 09:33:16 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]
+2022-09-08 09:36:51 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting DemoApplication using Java 1.8.0_191-1-ojdkbuild on DESKTOP-6DTGBPB with PID 1300 (C:\dev\sample01\server\build\classes\java\main started by repure01 in C:\dev\sample01\server)
+2022-09-08 09:36:51 [INFO ] [SpringApplication.java]logStartupProfileInfo(659) : No active profile set, falling back to default profiles: default
+2022-09-08 09:36:52 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2022-09-08 09:36:52 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2022-09-08 09:36:52 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-09-08 09:36:52 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2022-09-08 09:36:52 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(290) : Root WebApplicationContext: initialization completed in 1249 ms
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/css/**'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/js/**'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/img/**'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/lib/*8'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/ui'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-resources'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/security'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='webjars/**'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger/**'] with []
+2022-09-08 09:36:53 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49d30c6f, org.springframework.security.web.context.SecurityContextPersistenceFilter@4462efe1, org.springframework.security.web.header.HeaderWriterFilter@633cc6b5, org.springframework.security.web.authentication.logout.LogoutFilter@51c8f62c, com.coders.demo.api.framework.security.jwt.JwtAuthenticationFilter@1115433e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2db4ad1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42a0501e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fdca00a, org.springframework.security.web.session.SessionManagementFilter@54755dd9, org.springframework.security.web.access.ExceptionTranslationFilter@16a35bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45f756e6]
+2022-09-08 09:36:53 [INFO ] [PropertySourcedRequestMappingHandlerMapping.java]initHandlerMethods(69) : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-08 09:36:53 [WARN ] [ThymeleafAutoConfiguration.java]checkTemplateLocationExists(105) : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-08 09:36:53 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 09:36:53 [INFO ] [DocumentationPluginsBootstrapper.java]start(160) : Context refreshed
+2022-09-08 09:36:53 [INFO ] [DocumentationPluginsBootstrapper.java]start(163) : Found 1 custom documentation plugin(s)
+2022-09-08 09:36:53 [INFO ] [ApiListingReferenceScanner.java]scan(41) : Scanning for api listing references
+2022-09-08 09:36:53 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started DemoApplication in 2.651 seconds (JVM running for 3.279)
+2022-09-08 09:37:01 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-08 09:37:01 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2022-09-08 09:37:01 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2022-09-08 09:37:01 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: com.coders.demo.api.controller.response.api.SaveBoardResponse com.coders.demo.api.controller.ApiController.saveBoard(org.springframework.security.core.Authentication,com.coders.demo.api.controller.request.api.SaveBoardRequest,javax.servlet.http.HttpServletRequest)]
+2022-09-08 09:46:30 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting DemoApplication using Java 1.8.0_191-1-ojdkbuild on DESKTOP-6DTGBPB with PID 15484 (C:\dev\sample01\server\build\classes\java\main started by repure01 in C:\dev\sample01\server)
+2022-09-08 09:46:30 [INFO ] [SpringApplication.java]logStartupProfileInfo(659) : No active profile set, falling back to default profiles: default
+2022-09-08 09:46:31 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2022-09-08 09:46:31 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2022-09-08 09:46:31 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-09-08 09:46:31 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2022-09-08 09:46:31 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(290) : Root WebApplicationContext: initialization completed in 1198 ms
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/css/**'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/js/**'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/img/**'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/lib/*8'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/ui'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-resources'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/security'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='webjars/**'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger/**'] with []
+2022-09-08 09:46:32 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fdca00a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2db4ad1, org.springframework.security.web.header.HeaderWriterFilter@403c3a01, org.springframework.security.web.authentication.logout.LogoutFilter@11f9535b, com.coders.demo.api.framework.security.jwt.JwtAuthenticationFilter@513b52af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2513a118, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e4599c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a8c93, org.springframework.security.web.session.SessionManagementFilter@4462efe1, org.springframework.security.web.access.ExceptionTranslationFilter@6f798482, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3003827c]
+2022-09-08 09:46:32 [INFO ] [PropertySourcedRequestMappingHandlerMapping.java]initHandlerMethods(69) : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-08 09:46:32 [WARN ] [ThymeleafAutoConfiguration.java]checkTemplateLocationExists(105) : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-08 09:46:32 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 09:46:32 [INFO ] [DocumentationPluginsBootstrapper.java]start(160) : Context refreshed
+2022-09-08 09:46:32 [INFO ] [DocumentationPluginsBootstrapper.java]start(163) : Found 1 custom documentation plugin(s)
+2022-09-08 09:46:32 [INFO ] [ApiListingReferenceScanner.java]scan(41) : Scanning for api listing references
+2022-09-08 09:46:32 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started DemoApplication in 2.57 seconds (JVM running for 3.143)
+2022-09-08 09:46:40 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-08 09:46:40 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2022-09-08 09:46:40 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2022-09-08 09:46:40 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2022-09-08 09:46:40 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2022-09-08 09:46:45 [ERROR] [DeleteBoardHandler.java]execute(42) : org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: A query was run and no Result Maps were found for the Mapped Statement 'com.coders.demo.api.mapper.DemoMapper.deleteBoard'.  It's likely that neither a Result Type nor a Result Map was specified.
+2022-09-08 09:54:22 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2022-09-08 09:54:22 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2022-09-08 09:54:26 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting DemoApplication using Java 1.8.0_191-1-ojdkbuild on DESKTOP-6DTGBPB with PID 11800 (C:\dev\sample01\server\build\classes\java\main started by repure01 in C:\dev\sample01\server)
+2022-09-08 09:54:26 [INFO ] [SpringApplication.java]logStartupProfileInfo(659) : No active profile set, falling back to default profiles: default
+2022-09-08 09:54:27 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2022-09-08 09:54:27 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2022-09-08 09:54:27 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-09-08 09:54:27 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2022-09-08 09:54:27 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(290) : Root WebApplicationContext: initialization completed in 1168 ms
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/css/**'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/js/**'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/img/**'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/lib/*8'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/ui'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-resources'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/configuration/security'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='webjars/**'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure Ant [pattern='/swagger/**'] with []
+2022-09-08 09:54:28 [INFO ] [DefaultSecurityFilterChain.java]<init>(51) : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fdca00a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2db4ad1, org.springframework.security.web.header.HeaderWriterFilter@403c3a01, org.springframework.security.web.authentication.logout.LogoutFilter@11f9535b, com.coders.demo.api.framework.security.jwt.JwtAuthenticationFilter@513b52af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2513a118, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e4599c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a8c93, org.springframework.security.web.session.SessionManagementFilter@4462efe1, org.springframework.security.web.access.ExceptionTranslationFilter@6f798482, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3003827c]
+2022-09-08 09:54:28 [INFO ] [PropertySourcedRequestMappingHandlerMapping.java]initHandlerMethods(69) : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-08 09:54:28 [WARN ] [ThymeleafAutoConfiguration.java]checkTemplateLocationExists(105) : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-08 09:54:28 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 09:54:28 [INFO ] [DocumentationPluginsBootstrapper.java]start(160) : Context refreshed
+2022-09-08 09:54:28 [INFO ] [DocumentationPluginsBootstrapper.java]start(163) : Found 1 custom documentation plugin(s)
+2022-09-08 09:54:28 [INFO ] [ApiListingReferenceScanner.java]scan(41) : Scanning for api listing references
+2022-09-08 09:54:28 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started DemoApplication in 2.485 seconds (JVM running for 3.06)
+2022-09-08 09:54:36 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-08 09:54:36 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2022-09-08 09:54:36 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2022-09-08 09:54:36 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2022-09-08 09:54:36 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2022-09-08 10:13:29 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2022-09-08 10:13:29 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
